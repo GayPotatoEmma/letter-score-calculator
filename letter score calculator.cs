@@ -4,16 +4,13 @@ class LetterGradeCalculator
 {
     static void Main(string[] args)
     {
-        // Get user input
         Console.Write("Enter your score (0-100): ");
         int score = Convert.ToInt32(Console.ReadLine());
 
-        // Calculate and print the letter grade
         string grade = GetGrade(score);
         Console.WriteLine("Your grade is: " + grade);
     }
 
-    // Function to determine letter grade based on score (nested ifs)
     static string GetGrade(int score)
     {
         if (score == 100)
