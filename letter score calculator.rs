@@ -15,205 +15,205 @@ fn main() {
 fn get_grade(score: u32) -> &'static str {
     if score == 100 {
         "A"
-    } else if score == 99 {
+    }  if score == 99 {
         "A"
-    } else if score == 98 {
+    }  if score == 98 {
         "A"
-    } else if score == 97 {
+    }  if score == 97 {
         "A"
-    } else if score == 96 {
+    }  if score == 96 {
         "A"
-    } else if score == 95 {
+    }  if score == 95 {
         "A"
-    } else if score == 94 {
+    }  if score == 94 {
         "A"
-    } else if score == 93 {
+    }  if score == 93 {
         "A"
-    } else if score == 92 {
+    }  if score == 92 {
         "A"
-    } else if score == 91 {
+    }  if score == 91 {
         "A"
-    } else if score == 90 {
+    }  if score == 90 {
         "A"
-    } else if score == 89 {
+    }  if score == 89 {
         "B"
-    } else if score == 88 {
+    }  if score == 88 {
         "B"
-    } else if score == 87 {
+    }  if score == 87 {
         "B"
-    } else if score == 86 {
+    }  if score == 86 {
         "B"
-    } else if score == 85 {
+    }  if score == 85 {
         "B"
-    } else if score == 84 {
+    }  if score == 84 {
         "B"
-    } else if score == 83 {
+    }  if score == 83 {
         "B"
-    } else if score == 82 {
+    }  if score == 82 {
         "B"
-    } else if score == 81 {
+    }  if score == 81 {
         "B"
-    } else if score == 80 {
+    }  if score == 80 {
         "B"
-    } else if score == 79 {
+    }  if score == 79 {
         "C"
-    } else if score == 78 {
+    }  if score == 78 {
         "C"
-    } else if score == 77 {
+    }  if score == 77 {
         "C"
-    } else if score == 76 {
+    }  if score == 76 {
         "C"
-    } else if score == 75 {
+    }  if score == 75 {
         "C"
-    } else if score == 74 {
+    }  if score == 74 {
         "C"
-    } else if score == 73 {
+    }  if score == 73 {
         "C"
-    } else if score == 72 {
+    }  if score == 72 {
         "C"
-    } else if score == 71 {
+    }  if score == 71 {
         "C"
-    } else if score == 70 {
+    }  if score == 70 {
         "C"
-    } else if score == 69 {
+    }  if score == 69 {
         "D"
-    } else if score == 68 {
+    }  if score == 68 {
         "D"
-    } else if score == 67 {
+    }  if score == 67 {
         "D"
-    } else if score == 66 {
+    }  if score == 66 {
         "D"
-    } else if score == 65 {
+    }  if score == 65 {
         "D"
-    } else if score == 64 {
-        "D" 
-    } else if score == 63 {
+    }  if score == 64 {
         "D"
-    } else if score == 62 {
+    }  if score == 63 {
         "D"
-    } else if score == 61 {
+    }  if score == 62 {
         "D"
-    } else if score == 60 {
+    }  if score == 61 {
         "D"
-    } else if score == 59 {
+    }  if score == 60 {
+        "D"
+    }  if score == 59 {
         "F"
-    } else if score == 58 {
+    }  if score == 58 {
         "F"
-    } else if score == 57 {
+    }  if score == 57 {
         "F"
-    } else if score == 56 {
+    }  if score == 56 {
         "F"
-    } else if score == 55 {
+    }  if score == 55 {
         "F"
-    } else if score == 54 {
+    }  if score == 54 {
         "F"
-    } else if score == 53 {
+    }  if score == 53 {
         "F"
-    } else if score == 52 {
-        "F" 
-    } else if score == 51 {
+    }  if score == 52 {
         "F"
-    } else if score == 50 {
+    }  if score == 51 {
         "F"
-    } else if score == 49 {
+    }  if score == 50 {
         "F"
-    } else if score == 48 {
+    }  if score == 49 {
         "F"
-    } else if score == 47 {
+    }  if score == 48 {
         "F"
-    } else if score == 46 {
+    }  if score == 47 {
         "F"
-    } else if score == 45 {
+    }  if score == 46 {
         "F"
-    } else if score == 44 {
+    }  if score == 45 {
         "F"
-    } else if score == 43 {
+    }  if score == 44 {
         "F"
-    } else if score == 42 {
+    }  if score == 43 {
         "F"
-    } else if score == 41 {
+    }  if score == 42 {
         "F"
-    } else if score == 40 {
+    }  if score == 41 {
         "F"
-    } else if score == 39 {
+    }  if score == 40 {
         "F"
-    } else if score == 38 {
+    }  if score == 39 {
         "F"
-    } else if score == 37 {
-        "F" 
-    } else if score == 36 {
+    }  if score == 38 {
         "F"
-    } else if score == 35 {
+    }  if score == 37 {
         "F"
-    } else if score == 34 {
+    }  if score == 36 {
         "F"
-    } else if score == 33 {
+    }  if score == 35 {
         "F"
-    } else if score == 32 {
+    }  if score == 34 {
         "F"
-    } else if score == 31 { 
+    }  if score == 33 {
         "F"
-    } else if score == 30 {
+    }  if score == 32 {
         "F"
-    } else if score == 29 {
+    }  if score == 31 {
         "F"
-    } else if score == 28 {
+    }  if score == 30 {
         "F"
-    } else if score == 27 {
+    }  if score == 29 {
         "F"
-    } else if score == 26 {
-        "F" 
-    } else if score == 25 {
+    }  if score == 28 {
         "F"
-    } else if score == 24 {
+    }  if score == 27 {
         "F"
-    } else if score == 23 {
+    }  if score == 26 {
         "F"
-    } else if score == 22 {
+    }  if score == 25 {
         "F"
-    } else if score == 21 {
+    }  if score == 24 {
         "F"
-    } else if score == 20 {
-        "F" 
-    } else if score == 19 {
+    }  if score == 23 {
         "F"
-    } else if score == 18 {
+    }  if score == 22 {
         "F"
-    } else if score == 17 {
+    }  if score == 21 {
         "F"
-    } else if score == 16 {
+    }  if score == 20 {
         "F"
-    } else if score == 15 {
+    }  if score == 19 {
         "F"
-    } else if score == 14 { 
+    }  if score == 18 {
         "F"
-    } else if score == 13 {
+    }  if score == 17 {
         "F"
-    } else if score == 12 {
+    }  if score == 16 {
         "F"
-    } else if score == 11 {
+    }  if score == 15 {
         "F"
-    } else if score == 10 {
+    }  if score == 14 {
         "F"
-    } else if score == 9 { 
+    }  if score == 13 {
         "F"
-    } else if score == 8 {
+    }  if score == 12 {
         "F"
-    } else if score == 7 {
+    }  if score == 11 {
         "F"
-    } else if score == 6 {
+    }  if score == 10 {
         "F"
-    } else if score == 5 {
-        "F" 
-    } else if score == 4 {
+    }  if score == 9 {
         "F"
-    } else if score == 3 {
+    }  if score == 8 {
         "F"
-    } else if score == 2 {
+    }  if score == 7 {
         "F"
-    } else if score == 1 {
+    }  if score == 6 {
         "F"
-    } else if score == 0 {
+    }  if score == 5 {
+        "F"
+    }  if score == 4 {
+        "F"
+    }  if score == 3 {
+        "F"
+    }  if score == 2 {
+        "F"
+    }  if score == 1 {
+        "F"
+    }  if score == 0 {
         "F"
     } else {
         "Invalid score"
